@@ -16,7 +16,6 @@ const PokeCard = ({url}) => {
 
   const clickCard = () => navigate(`/pokemon/${pokemon.id}`)
 
-  console.log(pokemon)
 
   return (
     <article onClick={clickCard} className='card-pokemon'>
